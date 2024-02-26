@@ -29,7 +29,7 @@ Installation and Setup
 1. Ensure you have Truffle installed globally: ```npm install -g truffle```
 2. Install project dependencies: ```npm install```
 3. Initialise Truffle: ```truffle init```
-4. Place the Solidity file in the contracts folder and the migration file in the migrations folder.
+4. Place the Transaction.sol file in the contracts folder and the 1_transaction_migration.js file in the migrations folder.
 5. Enable the below settings in the Truffle configuration file (truffle-config.js or truffle.js):
 ```
 development: {
